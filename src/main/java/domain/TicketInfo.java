@@ -33,7 +33,7 @@ public class TicketInfo implements Comparable<TicketInfo> {
 
     @Override
     public int compareTo(TicketInfo o) {
-        TicketInfo t = (TicketInfo) o;
+        TicketInfo t = o;
 
         return this.price - t.price;
     }
